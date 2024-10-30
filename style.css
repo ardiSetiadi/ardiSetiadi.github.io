@@ -1,0 +1,102 @@
+*,html {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(36, 219, 219);
+}
+
+.container-navbar {
+    background-color: #333;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    margin-top: 5vh;
+    border-style: double;
+}
+
+.li-navbar:hover {
+    background-color: tomato;
+    transition: .3s ease-in-out;
+    transition-delay: .5s;
+    border-radius: 10px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.container-content {
+height: 80vh;
+background-color: cornsilk;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.a-content {
+    background-color: #f7f7f7;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 500px;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+    box-shadow: box-shadow: 21px 16px 5px 0px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 21px 16px 5px 0px rgba(0,0,0,0.53);
+    -moz-box-shadow: 21px 16px 5px 0px rgba(0,0,0,0.53);
+}
+
+.img-content {
+    border-radius: 10px;
+    width: 60%;
+    height: 80%;
+}
+
+.p1-content {
+   color: red;
+}
+
+#biodata {
+    width: 360px;
+    height: 80px;
+    background: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+    background-color: #333;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 30px;
+    color: white;
+   height: 30px;
+}
